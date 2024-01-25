@@ -12,4 +12,6 @@ Compreendendo a base de dados: <br>![Tabela](src/tabela.jpg "Tabela")<br>
 - **preco**: representa o preço do veículo.
 - **vendido**: rótulo de classificação para o algoritmo.
 <br><br>
+Para trabalhar com a lista, as milhas_por_ano e ano_do_modelo serão utilizados para calcular as milhas rodadas no total, para ser possível realizar o cálculo da distância euclidiana.
+<br><br>
 **Os dados de teste serão os últimos 500 da base de dados do link, os quais serão removidos da base de treino.**
