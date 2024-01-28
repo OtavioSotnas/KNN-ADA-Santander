@@ -14,4 +14,6 @@ Compreendendo a base de dados: <br>![Tabela](src/tabela.jpg "Tabela")<br>
 <br><br>
 Para trabalhar com a lista, as milhas_por_ano e ano_do_modelo serão utilizados para calcular as milhas rodadas no total, para ser possível realizar o cálculo da distância euclidiana.
 <br><br>
-**Os dados de teste serão os últimos 500 da base de dados do link, os quais serão removidos da base de treino.**
+**INFO:**<br>
+Os dados são embaralhados a cada vez que o programa é executada, garantindo o funcionamento do dataset como um todo e dos filtros internos. São utilizados 500 dados após a remoção dos outliers.<br>
+O filtro de outliers se mostrou necessário, pois há uma faixa de classificações estatisticamente inconsistente, como mostra o gráfico abaixo:<br>![Grafico](src/graph.jpg "Grafico")
